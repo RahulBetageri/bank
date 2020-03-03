@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login|ABC</title>
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist\css\bootstrap.css">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Literata&display=swap" rel="stylesheet">
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <div class="back">
+    </div>
+    <img class="img" src="logo1.jpg" alt="">
+    <div class="container-fluid">
+    <div class="middle-base row">
+        <div class="col-lg-6 container-fluid wc">
+            <h1 class="text-warning">Welcome to ABC Bank</h1>
+        </div>
+        <div class="col-lg-6">
+            <fieldset>
+                <form class="form" action="">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="text-warning">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email" autofocus required>
+                        <small id="emailHelp" class="form-text text-warning">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1" class="text-warning">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="pass" required>
+                    </div>
+                    <button type="submit" class="btn btn-warning" onclick="login(email.value,pass.value)">Submit</button>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+    </div>
+</body></html>

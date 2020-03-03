@@ -1,0 +1,37 @@
+.deposit{
+    background-color: #2a1a5e;
+    color: #fbe555;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px;
+}
+
+.p1{
+    position: relative;
+    display: inline;
+    left: 10px;
+}
+.p2{
+    position: absolute;
+    display: inline;
+    right:30px;
+}
+body{
+    margin: 0;
+    background-image: url(back.jpg);
+    background-size: cover;
+    font-family: 'Literata', serif;
+    color: #fbe555;
+}
+.bg-op{
+    background-color:#6915cf;
+    height:100%;
+    width:100%;
+    opacity: 35%;
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+p{
+  text-align: center;  
+}
