@@ -1,0 +1,2 @@
+bank page login email id=betagerirahul@gmail.com
+password=Durga@123
